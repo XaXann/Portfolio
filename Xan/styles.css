@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Signika+Negative:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    color: white;
+    
+}
+
+body {
+    background-image: url(pic.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+#logo {
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    text-shadow:3px 3px 4px rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+#logo:hover { 
+    color: red;
+}
+
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    transition: 0.6;
+    padding: 25px 100px;
+    z-index: 1000;
+    text-shadow: 3px 3px 10px black;
+    background-color: #0c2a61fa;
+}
+
+header #nav-bar {
+    position: relative;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 0.6;
+    transition: 0.6;
+    padding: 10px 10px 10px 10px;
+    text-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+    
+}
+
+header ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6;
+    padding: 6px;
+    border-radius: 4rem ;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+header ul li a:hover {
+    background-color: rgb(100, 176, 199);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+
+#imm{
+    border-radius: 50%;
+    width: 300px; 
+    margin-left: 30%;
+    box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.973);
+}
+
+
+.nav-bar{
+    text-align: center;
+    font-size: 100%;
+
+}
+
+.intro {
+    margin: 13% 30px 15% 30px;
+    width: 95%;
+
+}
+
+.right-intro {
+    float: right;
+    width: 48%;
+   
+}
+
+.left-intro {
+    float: left;
+    width: 48%;
+    margin: 100px 20px 0px 0px;
+}
+
+.left-intro h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 5%;
+    font-weight: bold;
+    
+   
+}
+
+.left-intro a {
+    font-size: 30px;
+    margin-left: 40%;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #0c2a61fa;
+    border-radius: 40%;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.left-intro a:hover {
+    background-color: white;
+    text-shadow: 2px 2px black;
+    font-weight: 900;
+    color: rgb(190, 44, 7);
+}
+            /* About  */
+#abt {
+    background-color: rgba(80, 0, 255, 0.40);
+    box-shadow: 0px 0px 0px 1px #ff9696d9;
+}
+ 
+#abt div {
+    margin-top: 1%;
+    padding-top: 2%;
+    font-size: 25px;
+}
+
+#abt, h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 5%;
+}
+
+#abt, p {
+    margin: 20px 40px 40px 40px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.block {
+    display: inline-block;
+}
+
+.red {
+    color: red;
+}
+    
+.shadow {
+    text-shadow: 0.5px 0.5px #fff;
+}
+            /*  Hobbies */
+
+#hobby {
+    background-color: rgba(80, 0, 255, 0.40);
+    box-shadow: 0px 0px 0px 1px #ff9696d9;
+    width: 94%;
+    margin: 40% 20px 20px 40px
+}
+
+#hobby h1 {
+    text-align: center;
+    font-size: 60px;
+    margin: 5% 0%;
+}
+            /* Football */
+.fltL img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 2px white;
+}
+
+.fltL {
+    float: left;
+    width: 17%;
+    margin: 70px 2% 13% 3%; 
+}
+
+.fltR {
+    float: right;
+    width: 75%;
+    padding: 4% 10% 0% 0%;
+}
+
+.fltR h3 {
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1px red;
+}
+
+            /* Games */
+
+.fltR-2 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 2px white;
+}
+
+.fltR-2 {
+    float: right;
+    width: 17%;
+    margin: 20% 6% 0% 1%; 
+}
+
+
+.fltL-2 {
+    float: left;
+    width: 75%;
+    padding: 4% 0% 0% 0%;
+    margin-bottom: 6%;
+}
+
+.fltL-2 h3 {
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1px red;
+}
+
+                /* Exercise */
+.fltL-3 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 2px white;
+}
+
+.fltL-3 {
+    float: left;
+    width: 17%;
+    margin: 60px 2% 13% 3%; 
+}
+
+.fltR-3 {
+   float: right;
+    width: 70%;
+    padding: 80px 20% 0% 0%;
+}
+
+.fltR-3 h3 {
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1px red;
+}
+
+#cont {
+   
+    background-color: rgba(80, 0, 255, 0.40);
+    box-shadow: 0px 0px 0px 1px #ff9696d9;
+    width: 94%;
+    margin: 40% 20px 20px 40px
+    
+}
+
+.cont-list {
+    font-weight: lighter;
+    font-size: 70px;
+    margin: 0%  5% 0% 5%;
+    color: #fff;
+}
+
+.cont-list li {
+    list-style: none;
+    padding: 10px 5%;
+}
+
+.cont-list li a{
+    font-size: 40px;
+    margin: 0% 5% 5% 5%;
+    text-decoration: none;
+}
+
+.fa-solid {
+    margin-right: 18px;
+}
+
+.wink {
+    text-decoration: none;
+    background-color: #0c2a61fa;
+    padding: 5px;
+    border-radius: 2rem;
+    transition:  0.5s;
+    border: 1px solid white;
+}
+
+.wink:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
